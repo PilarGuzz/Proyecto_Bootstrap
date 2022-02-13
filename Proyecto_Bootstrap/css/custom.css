@@ -1,0 +1,100 @@
+.burger {
+    border-radius: 8px;
+    border: solid 1.5px;
+    color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    font-size: 1em;
+    position: absolute;
+    margin-top: -20px;
+    cursor:pointer
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  iframe{
+      width: 100%;
+      height: 100%;
+  }
+
+  @media screen and (max-width: 1200px) {
+    #videoJapon {
+      height: 378px;
+    }
+  }
+
+  .section_header{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bolder;
+
+  }
+  .section_content{
+    text-align: center;
+  }
+
+  .section_table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    table-layout: fixed;
+    margin-top: 3em;
+  }
+#message {
+  height: auto !important;
+}
+#headeropinion{
+    padding-top: auto !important; 
+    padding-bottom: auto !important;
+    height: 30em;
+}
+
+.btn-primary, #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background-color:crimson;
+  border-color: crimson;
+}
+
+
+.btn-primary:hover {
+background-color: rgb(179, 29, 59);
+border-color:rgb(179, 29, 59)
+}

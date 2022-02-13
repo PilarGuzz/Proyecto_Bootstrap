@@ -24,10 +24,11 @@
               <!-- Sidenav -->
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Menu</a>
-                <a href="#">Reserva</a>
-                <a href="#">Opiniones</a>
-                <a href="#">Contacto</a>
+                <a href="index.html">Inicio</a>
+                <a href="menu.html">Menu</a>
+                <a href="reserva.html">Reserva</a>
+                <a href="opinion.html">Opiniones</a>
+                <a href="contacto.html">Contacto</a>
             </div>
             <div class="container">
                  <div class="navbar-brand">
@@ -47,7 +48,7 @@
         </header>
 
         <br />
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-10">
                     <!-- Portfolio Grid-->
@@ -134,7 +135,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-sm-6">
+                               <div class="col-lg-4 col-sm-6">
                                     <!-- Portfolio item 6-->
                                     <div class="portfolio-item">
                                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
@@ -148,7 +149,7 @@
                                             <div class="portfolio-caption-subheading text-muted">Competition</div>
                                         </div>
                                     </div>
-                                </div>  
+                                </div> 
                             </div>
                         </div>
                     </section>
@@ -157,7 +158,8 @@
                         <div class="container">
                             <div class="text-center">
                                 <h2 class="section-heading text-uppercase">Nuestros Chefs</h2>
-                                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                                <h3 class="section-subheading text-muted">La genialidad sin la base de un producto no tiene sentido. 
+                                    Pero la creatividad, si no hay un proyecto, tampoco tiene razón de ser</h3>
                             </div>
                             <div class="row">
                                 <div class="col-lg-4">
@@ -165,72 +167,104 @@
                                         <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
                                         <h4>Yoshihiro Narisawa</h4>
                                         <p class="text-muted">Especialidad comida <br> japonesa</p>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/narisawapress/"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
+                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="team-member">
                                         <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
                                         <h4>Victor Ho</h4>
                                         <p class="text-muted">Especialidad comida <br> china</p>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
+                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="team-member">
                                         <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
                                         <h4>Niki Nakayama</h4>
                                         <p class="text-muted">Especialidad comida <br> tailandesa</p>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                                <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">
+                                    Entre los tres suman más de 20 años de experiencia en cocinas, disfruta de platos excepcionales 
+                                    servidos con un toque fresco en nuestro restaurante.
+                                </p></div>
                             </div>
                         </div>
                     </section>
+                   
                 </div>
-                <div id="concurso" class="col-xl-2 text-center">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div>
-                        <h3 class="h3">NOVEDADES</h3> <br>
-                        <hr> <br>
-                        <h4 class="h4">CONSURSO</h4> <br>
-                        <p>Gana un viaje a <br>
-                        <span>JAPÓN</span>  para dos personas <br>
-                        </p>
-                        <br>
+                <!-- Lateral -->
+                <div id="lateral" class="col-xl-2 text-center">
+                    <section class="" id="novedades">
+                        <div class="container">
+                            <div class="text-center">
+                                <h3 class="h3">NOVEDADES</h3> <br>
+                                <hr> <br>
+                                <div id="concurso">
+                                    <h4 class="h4">CONSURSO</h4> <br>
+                                    <p>Gana un viaje a <br>
+                                        <span>JAPÓN</span>  para dos personas <br>
+                                    </p>
+                                    <br>
+                                
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                    </svg>
+                                        Para participar en Instagram debes: <br>
+                                        <ul class="text-start">
+                                            <li>Subir una foto en nuestro restaurante</li>
+                                            <li>Mencionarnos y seguirno</li>
+                                            <li>Etiquetar a 3 amigos</li>
+                                        </ul>  
+                                    </p>
+                                    <div id="videoJapon" class="embed-responsive embed-responsive-16by9 ">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BX_xjseA54I" allowfullscreen></iframe>                    
+                                
+                                    </div>
+                                </div>
+                                <br>
+                                <hr>
+                                <hr>
+                                <br>
+
+                                <div id="mochi" class="text-center">
+                                    <h4 class="h4">NUEVOS SABORES</h4> <br>
+                                    <p>Prueba los nuevos sabores del tan aclamado postre japonés <b>"Mochi"</b>. <br>
+                                        <small>sabores: Sakura, mango, cereza, banana...</small>
+
+                                    </p> 
+                                    <img class="img-fluid rounded  " src="assets/img/lateral/1.jpg" alt="..." />
+                                </div>
+                                <br><hr><hr><br>
+
+                                <div id="descuento" class="text-center">
+                                    <h4 class="h4">DESCUENTO </h4> <br>
+                                    <p>Reservar tiene recompensa, aprovecha este descuento hasta el <b> 31 de Mayo</b>.
+                                        Reserva mesa con 3 días de antelación y obtén tu código descuento de un <b> 8%</b> por reserva.
+
+                                    </p>
+
+                                </div>
+                                <br> <hr> <hr> <br>
+                                <div id="covid" class="text-center" >
+                                    <h4 class="h4">MEDIDAS COVID </h4> <br>
+                                    <ol class="text-start">
+                                        <li>Esperar a ser atendido.</li>
+                                        <li>Mostrar pasaporte covid antes de entrar.</li>
+                                        <li>Mascarilla mientras no esté en su mesa.</li>
+                                        
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+              
+                  
                     
-                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                          </svg>
-                            Para participar en Instagram debes: <br>
-                              <ul class="text-start">
-                                <li>Subir una foto en nuestro restaurante</li>
-                                <li>Mencionarnos y seguirno</li>
-                                <li>Etiquetar a 3 amigos</li>
-                              </ul>  
-                    </p>
-                    </div>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BX_xjseA54I" allowfullscreen></iframe>                    
-                
-                    </div>
-                    <hr>
-                    <hr>
-                    <div  class="text-center">
-                        <img src="/assets/img/lateral/1.jpg" class="rounded" alt="#">
-                    </div>
+                    <section>
+
+                    </section>
 
                 </div>
             </div>
@@ -242,12 +276,13 @@
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row align-items-center row justify-content-between">
                     <div class="col-lg-4 text-lg-start">Copyright &copy; Asian Food 2022</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.instagram.com/asianfoodnetwork/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg></a>
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.linkedin.com/company/asian-foods"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
                         <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
@@ -267,24 +302,18 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Carta</h2>
+                                    <p class="item-intro text-muted">Nuestros deliciosos platos te esperan</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
+                                    <p>
+                                        Disfruta de nuestros platos asiáticos en el mejor ambiente posible, actualizamos la carta cada dos mesas, siemppre intentando 
+                                        innovar y traer sabores nuevos. <small> La carta de postres se sirve en mesa.</small>
+                                    </p>
+                                   
+                                    <a class="btn btn-primary btn-xl text-uppercase" href="menu.html" type="button">
+                                        
+                                        Carta
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -302,24 +331,19 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Reserva</h2>
+                                    <p class="item-intro text-muted">Reserva mesa en nuestro restaurante.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
+                                    <p>
+                                        Reserva una mesa en nuestro restaurante, disponemos de terraza equipada con estufas 
+                                        para el invierno y difusores de agua para el verano. En el interior disfrutará de una exquisita 
+                                        decoración y climatización. Ven a visitarnos.
+                                    </p>
+                                    
+                                    <a class="btn btn-primary btn-xl text-uppercase" href="reserva.html" type="button">
+                                        
+                                        Reserva
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -337,24 +361,17 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Opiniones</h2>
+                                    <p class="item-intro text-muted">Comenta u observa lo que dicen de nosotros.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
+                                    <p>Dejanos tu comentario tras tu visita o mira lo que otros dicen de nosotros. Otra forma 
+                                        de conocernos a través de los demás.
+                                    </p>
+                                   
+                                    <a class="btn btn-primary btn-xl text-uppercase" href="opinion.html" type="button">
+                                       
+                                        Opiniones
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -372,24 +389,16 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Contacto</h2>
+                                    <p class="item-intro text-muted">Ponte en contacto con nosotros.</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close Project
-                                    </button>
+                                    <p>
+                                        Si tienes alguna duda, sugerencia o simplemente quieres ponerte en contacto por cualquier motivo, 
+                                        rellena nuestro formulario y responderemos lo antes posible.
+                                    </p>
+                                    <a class="btn btn-primary btn-xl text-uppercase" href="contacto.html" type="button">
+                                        Contacto
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -407,23 +416,17 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
+                                    <h2 class="text-uppercase">Merchandasing</h2>
+                                    <p class="item-intro text-muted">Se un ASIAN FOODER como nosotros</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/productos.png" alt="..." />
+                                    <p>
+                                        Pregunta en tienda por nuestros productos exclusivos de Merchandasing. No encontrarás nada igual.
+                                        Actualizamos prodductos cada mes, si hoy no hay puede que mañana si ;)
+                                    </p>
+                                
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        Cerrar
                                     </button>
                                 </div>
                             </div>
@@ -442,23 +445,21 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Concurso</h2>
+                                    <p class="item-intro text-muted">Visita Japón de la mano de Logitravel</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
+                                    <p>Gana un viaje para dos personas a Japón. 
+                                        Para participar debes subir una foto a tu Intagram comiendo en nuestro restaurante y mencionandonos 
+                                        a nosotros y a tres amigos que te llevarías de viaje. Debes seguirnos en nuestra cuenta de Instagram hasta el final del sorteo.
+                                        Fecha del sorteo: 28 de Febrero. <br>
+                                        Fecha del viaje durante 2022, durante 7 noches en hotel 4 estrellas, vuelos incluidos,
+                                        no incluye comidas, transporte en destino y seguro de viaje.
+
+                                    </p>
+                                  
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        Cerrar
                                     </button>
                                 </div>
                             </div>
