@@ -29,4 +29,14 @@ Se han incluido recursos web como **por ejemplo**:
 * Elaboracion de caras artificiales para las fotos.
 * Elaboración de un logo para el restaurante y diferentes productos  
 de marketing virtuales con dicho logo.  
+* Creación del menú tipo _burguer_ desplegable haciendo uso de javascript
+
+
+#### Lenguajes utilizados
+>HTML  
+ CSS  
+ JAVASCRIPT
+ 
+##### Autor
+Pilar Guzmán
 
