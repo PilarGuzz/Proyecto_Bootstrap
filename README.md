@@ -14,6 +14,17 @@ En este caso se ha elaborado una web de un restaurante asiático.
 >7. Una tabla
 >8. Un formulario
 
+## Contenido  
+Página de inicio con un boton que enlaza con el html de reservas.  
+Haciendo scroll hacia abajo encontraremos 6 apartados diferentes con más información  
+y enlaces a sus htmls propios y a la derecha la barra lateral requerida  
+en la que se incluyen unas listas numeradas y no numeradas y un video optimizado y un pie de página.  
+
+En el menu desplegable de arriba a la izquierda podemos acceder al menú  
+elaborado con una tabla, a las reservas (formulario), opiniones y contactos(formulario).
+
+
+
 ## Procedimiento
 * Elección de temática y planteamiento  
   En este caso se eligió un restaurante, ya que da juego a la hora de  
